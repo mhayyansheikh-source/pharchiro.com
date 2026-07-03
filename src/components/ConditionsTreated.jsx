@@ -66,50 +66,42 @@ export default function ConditionsTreated() {
             >
               <div className="col-6">
                 <motion.div 
-                  className="rounded-4 overflow-hidden mb-3 bg-secondary"
+                  className="rounded-4 overflow-hidden mb-3"
                   style={{ height: '300px' }}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                 >
-                  <div className="w-100 h-100 d-flex align-items-center justify-content-center text-white">
-                    <span className="opacity-50">Image 1</span>
-                  </div>
+                  <img src="https://pharchiro.com/wp-content/uploads/sports-injury-chiropractic-care-650x650.jpg" alt="Sports Injury" className="w-100 h-100" style={{ objectFit: 'cover' }} />
                 </motion.div>
                 <motion.div 
-                  className="rounded-4 overflow-hidden bg-primary"
+                  className="rounded-4 overflow-hidden"
                   style={{ height: '200px' }}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                 >
-                   <div className="w-100 h-100 d-flex align-items-center justify-content-center text-white">
-                    <span className="opacity-50">Image 2</span>
-                  </div>
+                  <img src="https://pharchiro.com/wp-content/uploads/back-pain.jpg" alt="Back Pain" className="w-100 h-100" style={{ objectFit: 'cover' }} />
                 </motion.div>
               </div>
               <div className="col-6 mt-5">
                 <motion.div 
-                  className="rounded-4 overflow-hidden mb-3 bg-dark"
+                  className="rounded-4 overflow-hidden mb-3"
                   style={{ height: '200px' }}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                 >
-                  <div className="w-100 h-100 d-flex align-items-center justify-content-center text-white">
-                    <span className="opacity-50">Image 3</span>
-                  </div>
+                  <img src="https://pharchiro.com/wp-content/uploads/TMJ.jpg" alt="TMJ" className="w-100 h-100" style={{ objectFit: 'cover' }} />
                 </motion.div>
                 <motion.div 
-                  className="rounded-4 overflow-hidden bg-secondary"
+                  className="rounded-4 overflow-hidden"
                   style={{ height: '300px' }}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                 >
-                  <div className="w-100 h-100 d-flex align-items-center justify-content-center text-white">
-                    <span className="opacity-50">Image 4</span>
-                  </div>
+                  <img src="https://pharchiro.com/wp-content/uploads/physical-rehab.jpg" alt="Rehabilitation" className="w-100 h-100" style={{ objectFit: 'cover' }} />
                 </motion.div>
               </div>
             </motion.div>
