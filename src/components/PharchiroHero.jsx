@@ -53,11 +53,11 @@ export default function PharchiroHero() {
             <motion.div initial="hidden" animate="visible" variants={{
               visible: { transition: { staggerChildren: 0.2 } }
             }}>
-              <motion.span variants={textVariants} className="badge bg-primary rounded-pill mb-3 px-3 py-2 text-uppercase" style={{ backgroundColor: '#0d6efd', letterSpacing: '1px' }}>
+              <motion.span variants={textVariants} className="badge bg-primary rounded-pill mb-3 px-3 py-2 text-uppercase" style={{ backgroundColor: '#946c44', letterSpacing: '1px' }}>
                 Top Rated in League City, TX
               </motion.span>
               <motion.h1 variants={textVariants} className="display-4 fw-bold text-dark mb-4" style={{ lineHeight: '1.2' }}>
-                World-Class <span style={{ color: '#0056b3' }}>Chiropractic Care</span> & Sports Rehab
+                World-Class <span style={{ color: '#946c44' }}>Chiropractic Care</span> & Sports Rehab
               </motion.h1>
               <motion.p variants={textVariants} className="lead text-secondary mb-4">
                 Experience pain relief and enhanced performance with our personalized, state-of-the-art treatments. Start your journey to recovery today.

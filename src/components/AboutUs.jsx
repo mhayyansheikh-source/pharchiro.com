@@ -23,7 +23,7 @@ export default function AboutUs() {
                 About Pharaoh Health & Rehab
               </motion.span>
               <motion.h2 variants={textVariants} className="display-5 fw-bold mb-4 mt-2 text-dark">
-                Your Journey to <span style={{ color: '#0056b3' }}>Optimal Health</span> Starts Here
+                Your Journey to <span style={{ color: '#946c44' }}>Optimal Health</span> Starts Here
               </motion.h2>
               <motion.p variants={textVariants} className="lead text-secondary mb-4">
                 At Pharaoh Health and Rehab in League City, TX, we believe that true healing goes beyond just masking symptoms. We are dedicated to finding the root cause of your pain and providing personalized, comprehensive care.
@@ -35,7 +35,7 @@ export default function AboutUs() {
               <motion.div variants={textVariants} className="d-flex align-items-center mt-4">
                 <div className="d-flex align-items-center me-4">
                   <div className="bg-primary bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3" style={{ width: '60px', height: '60px' }}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#0d6efd" className="bi bi-person-hearts" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#946c44" className="bi bi-person-hearts" viewBox="0 0 16 16">
                       <path fillRule="evenodd" d="M11.5 1.246c.832-.855 2.913.642 0 2.566-2.913-1.924-.832-3.421 0-2.566ZM9 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1-1 1-1 1s1 0 1-1 1-4 6-4 6 3 6 4-1 1-1 1H0Zm11-9.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5Zm0 2a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5Z"/>
                     </svg>
                   </div>
@@ -47,7 +47,7 @@ export default function AboutUs() {
                 
                 <div className="d-flex align-items-center">
                   <div className="bg-primary bg-opacity-10 rounded-circle d-flex align-items-center justify-content-center me-3" style={{ width: '60px', height: '60px' }}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#0d6efd" className="bi bi-star-fill" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#946c44" className="bi bi-star-fill" viewBox="0 0 16 16">
                       <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
                     </svg>
                   </div>

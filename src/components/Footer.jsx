@@ -6,7 +6,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="pt-5 pb-3" style={{ backgroundColor: '#001a33', color: '#a3b1c6' }}>
+    <footer className="pt-5 pb-3" style={{ backgroundColor: '#32373c', color: '#a3b1c6' }}>
       <div className="container">
         <div className="row g-4 mb-4">
           <div className="col-lg-4 mb-4 mb-lg-0">
@@ -98,10 +98,10 @@ export default function Footer() {
           transition: color 0.2s ease, background-color 0.2s ease;
         }
         .hover-primary:hover {
-          color: #0d6efd !important;
+          color: #946c44 !important;
         }
         a.hover-primary.bg-secondary:hover {
-          background-color: #0d6efd !important;
+          background-color: #946c44 !important;
           color: #fff !important;
         }
       `}</style>

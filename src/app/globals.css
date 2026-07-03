@@ -24,3 +24,28 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Pharaoh Custom Color Overrides */
+:root {
+  --ph-gold: #946c44;
+  --ph-dark: #32373c;
+}
+.text-primary { color: var(--ph-gold) !important; }
+.bg-primary { background-color: var(--ph-gold) !important; }
+.btn-primary { 
+  background-color: var(--ph-gold) !important; 
+  border-color: var(--ph-gold) !important; 
+  color: #fff !important; 
+}
+.btn-primary:hover { 
+  background-color: #7a5836 !important; 
+  border-color: #7a5836 !important; 
+}
+.btn-outline-primary { 
+  color: var(--ph-gold) !important; 
+  border-color: var(--ph-gold) !important; 
+}
+.btn-outline-primary:hover { 
+  background-color: var(--ph-gold) !important; 
+  color: #fff !important; 
+}

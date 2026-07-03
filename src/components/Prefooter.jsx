@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Prefooter() {
   return (
-    <section className="py-5" style={{ backgroundColor: '#0d6efd', position: 'relative', overflow: 'hidden' }}>
+    <section className="py-5" style={{ backgroundColor: '#946c44', position: 'relative', overflow: 'hidden' }}>
       {/* Background Decor */}
       <div 
         className="position-absolute rounded-circle" 

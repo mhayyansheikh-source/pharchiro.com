@@ -35,7 +35,7 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="py-5" style={{ backgroundColor: '#001a33', color: '#fff' }}>
+    <section className="py-5" style={{ backgroundColor: '#32373c', color: '#fff' }}>
       <div className="container py-lg-5">
         <div className="text-center mb-5">
           <motion.h2 
