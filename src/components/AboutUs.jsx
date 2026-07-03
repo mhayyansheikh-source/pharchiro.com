@@ -69,10 +69,10 @@ export default function AboutUs() {
               className="position-relative"
             >
               <div className="rounded-4 overflow-hidden shadow-lg position-relative" style={{ aspectRatio: '4/3' }}>
-                <img src="https://pharchiro.com/wp-content/uploads/customized-chiropractic-care.jpg" alt="Clinic Staff" className="w-100 h-100" style={{ objectFit: 'cover' }} />
+                <img src="https://pharchiro.com/wp-content/uploads/customized-chiropractic-care.jpg" alt="Clinic Staff" className="w-100 h-100" style={{ objectFit: 'cover', objectPosition: '80% 50%' }} />
               </div>
               <div className="position-absolute bottom-0 start-0 translate-middle bg-white p-4 rounded-4 shadow-lg text-center" style={{ marginLeft: '20%', marginBottom: '-5%' }}>
-                <h3 className="fw-bold text-primary mb-0">10+</h3>
+                <h3 className="fw-bold mb-0" style={{ color: '#946c44' }}>10+</h3>
                 <p className="fw-medium mb-0 text-dark">Years Experience</p>
               </div>
             </motion.div>
