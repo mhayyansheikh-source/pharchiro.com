@@ -11,8 +11,8 @@ export default function AboutUs() {
   return (
     <section id="about" className="py-5 bg-white">
       <div className="container py-lg-5">
-        <div className="row align-items-center">
-          <div className="col-lg-6 mb-5 mb-lg-0 pe-lg-5">
+        <div className="row align-items-stretch">
+          <div className="col-lg-6 mb-5 mb-lg-0 pe-lg-5 d-flex flex-column justify-content-center py-4">
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -66,12 +66,12 @@ export default function AboutUs() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.8 }}
-              className="position-relative"
+              className="position-relative h-100"
             >
-              <div className="rounded-4 overflow-hidden shadow-lg position-relative" style={{ aspectRatio: '4/3' }}>
-                <img src="https://pharchiro.com/wp-content/uploads/customized-chiropractic-care.jpg" alt="Clinic Staff" className="w-100 h-100" style={{ objectFit: 'cover', objectPosition: '80% 50%' }} />
+              <div className="rounded-4 overflow-hidden shadow-lg position-relative h-100" style={{ minHeight: '400px' }}>
+                <img src="https://pharchiro.com/wp-content/uploads/customized-chiropractic-care.jpg" alt="Clinic Staff" className="position-absolute top-0 start-0 w-100 h-100" style={{ objectFit: 'cover', objectPosition: '80% 50%' }} />
               </div>
-              <div className="position-absolute bottom-0 start-0 translate-middle bg-white p-4 rounded-4 shadow-lg text-center" style={{ marginLeft: '20%', marginBottom: '-5%' }}>
+              <div className="position-absolute bottom-0 start-0 translate-middle bg-white p-4 rounded-4 shadow-lg text-center" style={{ marginLeft: '20%', marginBottom: '20px' }}>
                 <h3 className="fw-bold mb-0" style={{ color: '#946c44' }}>10+</h3>
                 <p className="fw-medium mb-0 text-dark">Years Experience</p>
               </div>
